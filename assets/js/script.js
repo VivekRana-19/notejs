@@ -63,6 +63,8 @@ function clearNotes() {
   localStorage.clear();
   notesSection.innerText = "";
 }
+console.log("hello! happy debugging")
+console.log(clearBtn,deleteNote);
 
 clearBtn.addEventListener("click", clearNotes);
 
